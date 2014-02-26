@@ -1,3 +1,5 @@
+# Classes :
+
 class pet:
 	number_of_legs = 0
 
