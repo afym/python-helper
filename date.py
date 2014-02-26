@@ -25,3 +25,10 @@ print ("Some date + 2 is :" + newDateA.strftime('%Y-%m-%d'))
 newDateB = someDate - deltaDate
 
 print ("Some date - 2 is :" + newDateB.strftime('%Y-%m-%d'))
+
+date1 = datetime.date(1900, 1, 1)
+date2 = datetime.date(1900, 2, 1)
+
+deltaDate = date2 - date1
+
+print ("d1 - d2")
